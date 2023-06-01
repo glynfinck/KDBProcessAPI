@@ -6,22 +6,22 @@ namespace KDBProcessAPI.Test;
 
 public class Tests
 {
+    private WeatherForecastController controller;
     [SetUp]
     public void Setup()
     {
+        controller = new WeatherForecastController();
     }
     
     [Test]
     public void TestGetWeatherForcastIsList()
     {
-        WeatherForecastController controller = new WeatherForecastController();
         Assert.That(new WeatherForecast[0].GetType(), Is.EqualTo(controller.Get().GetType()));
     }
 
     [Test]
     public void TestGetWeatherForcastType()
     {
-        WeatherForecastController controller = new WeatherForecastController();
         Assert.That(new WeatherForecast().GetType(), Is.EqualTo(controller.Get().First().GetType()));
     }
 }
