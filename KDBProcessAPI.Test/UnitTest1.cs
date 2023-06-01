@@ -10,6 +10,13 @@ public class Tests
     public void Setup()
     {
     }
+    
+    [Test]
+    public void TestGetWeatherForcastIsList()
+    {
+        WeatherForecastController controller = new WeatherForecastController();
+        Assert.That(new WeatherForecast[0].GetType(), Is.EqualTo(controller.Get().GetType()));
+    }
 
     [Test]
     public void TestGetWeatherForcastType()
