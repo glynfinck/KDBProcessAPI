@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KDBProcessAPI", "KDBProcessAPI\KDBProcessAPI.csproj", "{B894DF83-A33E-4EA9-9A26-95DB7C231CD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KDBProcessAPI.Test", "KDBProcessAPI.Test\KDBProcessAPI.Test.csproj", "{0AA2205B-6A14-4C49-BB3F-F98E117FCCD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B894DF83-A33E-4EA9-9A26-95DB7C231CD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B894DF83-A33E-4EA9-9A26-95DB7C231CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B894DF83-A33E-4EA9-9A26-95DB7C231CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B894DF83-A33E-4EA9-9A26-95DB7C231CD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AA2205B-6A14-4C49-BB3F-F98E117FCCD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA2205B-6A14-4C49-BB3F-F98E117FCCD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AA2205B-6A14-4C49-BB3F-F98E117FCCD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AA2205B-6A14-4C49-BB3F-F98E117FCCD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F39C707-A78F-4666-8CD0-31A829BF3AF7}
+	EndGlobalSection
+EndGlobal
