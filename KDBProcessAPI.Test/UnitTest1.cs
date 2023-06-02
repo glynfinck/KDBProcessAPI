@@ -4,7 +4,7 @@ using NUnit.Framework.Internal;
 
 namespace KDBProcessAPI.Test;
 
-public class Tests
+public class WeatherForecastControllerTests
 {
     private WeatherForecastController _controller;
     [SetUp]
